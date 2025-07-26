@@ -1,15 +1,14 @@
-import React from 'react'
-import Newblog from '../components/newblog'
-import Navbar from '../components/navbar'
+import React from 'react';
+import Navbar from '../components/navbar';
+import BlogForm from '../components/BlogForm';
 
 function Write() {
   return (
     <div>
-    <Navbar/>
-    <Newblog/>
-   
+      <Navbar />
+      <BlogForm />
     </div>
-  )
+  );
 }
 
-export default Write
+export default Write;
