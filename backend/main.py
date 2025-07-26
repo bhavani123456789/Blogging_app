@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from db.connect import DbConnection
+from connect import DbConnection
+
+
 
 app = FastAPI()
 
